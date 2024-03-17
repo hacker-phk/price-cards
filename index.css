@@ -1,0 +1,72 @@
+.pricewhole{
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+p{
+    text-align: center;
+}
+.each{
+flex-basis: 300px;
+min-height: 220px;
+border: 2px solid rgb(206, 222, 206);
+/* background-color: black; */
+border-radius: 2px;
+background-color:lightgray;
+
+margin: 5px 5px 5px 5px;
+}
+.title{
+    font-weight: 900;
+    text-align: center;
+    /* padding-left: 45px; */
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.price{
+    text-align: center;
+    font-size:larger;
+    font-weight: 900;
+    font-family: sans-serif;
+    letter-spacing:1px;
+}
+.storage{
+    text-align: center;
+}
+.tick{
+    background-color:rgb(51, 202, 51);
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 12px;
+}
+.signup{
+    background-color: rgb(234, 178, 72) !important;;
+}
+.signupdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    border: none;
+   
+    font-weight: 900;
+    
+}
+.signup{
+    border: none;
+    padding: 5px 5px;
+    font-weight: 560;
+    border-radius: 2px;
+}
+
